@@ -150,7 +150,7 @@ section .container{
 section .container .box1{
     width: 33.3%;
     height: 50vh;
-    border: 2px solid white;
+    border: 0.050rem solid white;
     float: left;
 }
 
@@ -166,4 +166,87 @@ section .container .box3{
     height: 50vh;
     border: 2px solid white;
     float: left;
+}
+
+section .container .sub1,.sub2,.sub3{
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+section .container .box1 .sub1 i{
+    color: #00b894;
+    padding: 8px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section .container .box2 .sub2 i{
+    color: #00b894;
+    padding-top: 5px;
+    padding-left: 2px;
+    text-align: center;
+    font-size: 28px;
+}
+
+section .container .box3 .sub3 i{
+    color: #00b894;
+    padding-left: 5px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 28px;
+}
+
+section .container .box1 h4{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family:  'Signika Negative', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+section .container .box2 h4{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family:  'Signika Negative', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+section .container .box3 h4{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family:  'Signika Negative', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+section .container .box1 #arrow{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #fafffe;
+    text-shadow: 2px 2px 6px black;
+}
+
+section .container .box2 #arrow{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #fafffe;
+    text-shadow: 2px 2px 6px black;
+}
+
+section .container .box3 #arrow{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #fafffe;
+    text-shadow: 2px 2px 6px black;
+}
+
+section .container .box2 pp{
+    
 }
