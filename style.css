@@ -172,14 +172,14 @@ section .container .sub1,.sub2,.sub3{
     width: 40px;
     height: 40px;
     background: white;
-    margin: 100px;
+    margin: 70px;
     border-radius: 50%;
     float: left;
 }
 
 section .container .box1 .sub1 i{
     color: #00b894;
-    padding: 8px;
+    margin: 8px;
     text-align: center;
     font-size: 30px;
 }
@@ -247,6 +247,29 @@ section .container .box3 #arrow{
     text-shadow: 2px 2px 6px black;
 }
 
-section .container .box2 pp{
-    
+section .container .box1 ul li{
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 15px;
+    text-shadow: 2px 2px 6px black;
+    color: #fafffe;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section .container .box2 ul li{
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 15px;
+    text-shadow: 2px 2px 6px black;
+    color: #fafffe;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section .container .box3 ul li{
+    margin-left: 60px;
+    margin-top: 12px;
+    font-size: 15px;
+    text-shadow: 2px 2px 6px black;
+    color: #fafffe;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
