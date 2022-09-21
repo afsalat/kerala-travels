@@ -1,18 +1,13 @@
 
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'josefin Sans', sans-serif;
 }
 
-
-
-/* main header section started  */
-
-
 header{
+    /* width: 100%; */
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url('kerala.jpg');
     background-repeat: no-repeat;
@@ -20,14 +15,16 @@ header{
     background-size: cover;
 }
 
-nav{
-    width: 100%;
-    height: 14vh;
+header nav{
+    /* width: 100%; */
+    height: 10vh;
     background: rgb(0, 0, 0, 0.3);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-transform: uppercase;
+
 }
 
 
@@ -35,7 +32,6 @@ header nav .logo h1{
     text-align: center;
     font-size: 170%;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
 }
 
 header nav .menu{
@@ -44,18 +40,19 @@ header nav .menu{
 
 }
 
-nav .menu a{
+header nav .menu a{
+    /* width: 25%; */
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-nav .menu a:hover{
+header nav .menu a:hover{
      color: #00b894;
 }
 
-main{
-    width: 100%;
+header main{
+    /* width: 100%; */
     height: 85vh;
     display: flex;
     justify-content: center;
@@ -64,7 +61,7 @@ main{
     color: rgb(252, 247, 247);
 }
 
-section h3{
+header main section h3{
     font-size: 35px;
     font-weight: 200;
     letter-spacing: 3px;
@@ -72,7 +69,7 @@ section h3{
     
 }
 
-section h1{
+header main section h1{
     margin: 30px 0 20px 0;
     font-size: 55px;
     font-weight: 600;
@@ -80,14 +77,14 @@ section h1{
     text-transform: uppercase;
 }
 
-section p{
+header main section p{
     font-size: 25px;
     word-spacing: 2px;
     margin-bottom: 25px;
     text-shadow: 1px 1px 1px black;
 }
 
-section a{
+header main section a{
     padding: 12px 30px;
     border-radius: 4px;
     text-transform: uppercase;
@@ -99,32 +96,31 @@ section a{
     transition: all .3s ease;
 }
 
-section .button1{
+header main section .button1{
     background: #fafffe;
     color: rgb(0, 0, 0);
 
 }
 
-.button1:hover{
+header main section .button1:hover{
     background: #00b894;
     color: #fafffe;
     box-shadow: 2px 2px 10px black;
 }
 
-
-section .button2{
+header main section .button2{
     background: #00b894;
     color: white;
     box-shadow: 2px 2px 10px black;
 }
 
-.button2:hover{
+header main section .button2:hover{
     background: #fbfffe;
     color: #00b894;
 }
 
 
-.change_contect::after{
+header main section .change_contect::after{
     content: '';
     animation: changetext 10s infinite linear;
     color: #00b894;
@@ -141,33 +137,34 @@ section .button2{
 }
 
 
-/* main header section ended */
+.row{
+    /* width: 100%; */
+}
 
-
-/* main menu section started */
-
-
-section .container{
+.row .contain{
     width: 100%;
     height: 50vh;
 }
 
 
-section .container .box1{
+.row .contain .box1{
+    /* width: 100%; */
     height: 50vh;
     border: 0.050rem solid rgb(117, 255, 175);
     float: left;
     background: #00b894;
 }
 
-section .container .box2{
+.row .contain .box2{
+    /* width: 100%; */
     height: 50vh;
     border: 0.050rem solid rgb(117, 255, 175);
     float: left;
     background: #00b894;
 }
 
-section .container .box3{
+.row .contain .box3{
+    /* width: 100%; */
     height: 50vh;
     border: 0.050rem solid rgb(117, 255, 175);
     float: left;
@@ -175,55 +172,64 @@ section .container .box3{
 }
 
 
-section .container .sub1,.sub2,.sub3{
+.row .contain .box1 .sub1{
     width: 40px;
     height: 40px;
     background: white;
-    text-align: center;
     margin: 70px;
     border-radius: 50%;
     float: left;
 }
 
+.row .contain .box2 .sub2{
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin: 70px;
+    border-radius: 50%;
+    float: left;
+}
 
-section .container .box1 .sub1 i{
+.row .contain .box3 .sub3{
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin: 70px;
+    border-radius: 50%;
+    float: left;
+}
+
+.row .contain .box1 .sub1 i{
     color: #00b894;
-    margin: 7px;
+    margin: 8px;
     text-align: center;
     font-size: 30px;
 }
 
-section .container .box2 .sub2 i{
+.row .contain .box2 .sub2 i{
     color: #00b894;
-    margin-left: 1px;
-    margin-top: 4px;
+    padding-top: 5px;
+    padding-left: 2px;
     text-align: center;
     font-size: 28px;
 }
 
-section .container .box3 .sub3 i{
+.row .contain .box3 .sub3 i{
     color: #00b894;
-    margin: 7px;
+    padding-left: 5px;
+    padding-top: 6px;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
 }
 
-section .container .box1 h4{
+.row .contain .box1 h4{
     margin-top: 110px;
     font-size: 20px;
     font-family:  'Signika Negative', sans-serif;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
-section .container .box2 h4{
-    margin-top: 110px;
-    font-size: 20px;
-    font-family:  'Signika Negative', sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-}
-
-section .container .box3 h4{
+.row .contain .box2 h4{
     margin-top: 110px;
     font-size: 20px;
     font-family:  'Signika Negative', sans-serif;
@@ -231,7 +237,15 @@ section .container .box3 h4{
     text-shadow: 2px 2px 4px black;
 }
 
-section .container .box1 #arrow{
+.row .contain .box3 h4{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family:  'Signika Negative', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.row .contain .box1 #arrow{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
@@ -239,7 +253,7 @@ section .container .box1 #arrow{
     text-shadow: 2px 2px 6px black;
 }
 
-section .container .box2 #arrow{
+.row .contain .box2 #arrow{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
@@ -247,7 +261,7 @@ section .container .box2 #arrow{
     text-shadow: 2px 2px 6px black;
 }
 
-section .container .box3 #arrow{
+.row .contain .box3 #arrow{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
@@ -255,7 +269,7 @@ section .container .box3 #arrow{
     text-shadow: 2px 2px 6px black;
 }
 
-section .container .box1 ul li{
+.row .contain .box1 ul li{
     margin-left: 60px;
     margin-top: 15px;
     font-size: 15px;
@@ -264,7 +278,7 @@ section .container .box1 ul li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-section .container .box2 ul li{
+.row .contain .box2 ul li{
     margin-left: 60px;
     margin-top: 15px;
     font-size: 15px;
@@ -273,7 +287,7 @@ section .container .box2 ul li{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-section .container .box3 ul li{
+.row .contain .box3 ul li{
     margin-left: 60px;
     margin-top: 15px;
     font-size: 15px;
@@ -281,7 +295,3 @@ section .container .box3 ul li{
     color: #fafffe;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-
-
-/* main menu section ended */
