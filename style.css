@@ -144,6 +144,7 @@ header main section .change_contect::after{
 .row .contain{
     width: 100%;
     height: 50vh;
+
 }
 
 
@@ -295,3 +296,5 @@ header main section .change_contect::after{
     color: #fafffe;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+ 
