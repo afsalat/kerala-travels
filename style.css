@@ -6,6 +6,9 @@
     font-family: 'josefin Sans', sans-serif;
 }
 
+
+/* main header section started */
+
 header{
     /* width: 100%; */
     height: 100vh;
@@ -137,18 +140,21 @@ header main section .change_contect::after{
 }
 
 
+/* main header section ended */
+
+
+/* main menu section strated */
+
+
+
 .row{
     /* width: 100%; */
-}
-
-.row .contain{
-    width: 100%;
     height: 50vh;
 
 }
 
 
-.row .contain .box1{
+.row .box1{
     /* width: 100%; */
     height: 50vh;
     border: 0.050rem solid rgb(117, 255, 175);
@@ -156,7 +162,7 @@ header main section .change_contect::after{
     background: #00b894;
 }
 
-.row .contain .box2{
+.row .box2{
     /* width: 100%; */
     height: 50vh;
     border: 0.050rem solid rgb(117, 255, 175);
@@ -164,7 +170,7 @@ header main section .change_contect::after{
     background: #00b894;
 }
 
-.row .contain .box3{
+.row .box3{
     /* width: 100%; */
     height: 50vh;
     border: 0.050rem solid rgb(117, 255, 175);
@@ -173,7 +179,7 @@ header main section .change_contect::after{
 }
 
 
-.row .contain .box1 .sub1{
+.row .box1 .sub1{
     width: 40px;
     height: 40px;
     background: white;
@@ -182,7 +188,7 @@ header main section .change_contect::after{
     float: left;
 }
 
-.row .contain .box2 .sub2{
+.row .box2 .sub2{
     width: 40px;
     height: 40px;
     background: white;
@@ -191,7 +197,7 @@ header main section .change_contect::after{
     float: left;
 }
 
-.row .contain .box3 .sub3{
+.row .box3 .sub3{
     width: 40px;
     height: 40px;
     background: white;
@@ -200,14 +206,14 @@ header main section .change_contect::after{
     float: left;
 }
 
-.row .contain .box1 .sub1 i{
+.row .box1 .sub1 i{
     color: #00b894;
     margin: 8px;
     text-align: center;
     font-size: 30px;
 }
 
-.row .contain .box2 .sub2 i{
+.row .box2 .sub2 i{
     color: #00b894;
     padding-top: 5px;
     padding-left: 2px;
@@ -215,7 +221,7 @@ header main section .change_contect::after{
     font-size: 28px;
 }
 
-.row .contain .box3 .sub3 i{
+.row .box3 .sub3 i{
     color: #00b894;
     padding-left: 5px;
     padding-top: 6px;
@@ -223,22 +229,14 @@ header main section .change_contect::after{
     font-size: 28px;
 }
 
-.row .contain .box1 h4{
+.row .box1 h4{
     margin-top: 110px;
     font-size: 20px;
     font-family:  'Signika Negative', sans-serif;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
-.row .contain .box2 h4{
-    margin-top: 110px;
-    font-size: 20px;
-    font-family:  'Signika Negative', sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px black;
-}
-
-.row .contain .box3 h4{
+.row .box2 h4{
     margin-top: 110px;
     font-size: 20px;
     font-family:  'Signika Negative', sans-serif;
@@ -246,7 +244,15 @@ header main section .change_contect::after{
     text-shadow: 2px 2px 4px black;
 }
 
-.row .contain .box1 #arrow{
+.row .box3 h4{
+    margin-top: 110px;
+    font-size: 20px;
+    font-family:  'Signika Negative', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.row .box1 #arrow{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
@@ -254,7 +260,7 @@ header main section .change_contect::after{
     text-shadow: 2px 2px 6px black;
 }
 
-.row .contain .box2 #arrow{
+.row .box2 #arrow{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
@@ -262,7 +268,7 @@ header main section .change_contect::after{
     text-shadow: 2px 2px 6px black;
 }
 
-.row .contain .box3 #arrow{
+.row .box3 #arrow{
     font-size: 30px;
     margin-left: 40px;
     margin-top: 10px;
@@ -270,7 +276,7 @@ header main section .change_contect::after{
     text-shadow: 2px 2px 6px black;
 }
 
-.row .contain .box1 ul li{
+.row .box1 ul li{
     margin-left: 60px;
     margin-top: 15px;
     font-size: 15px;
@@ -279,7 +285,7 @@ header main section .change_contect::after{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.row .contain .box2 ul li{
+.row .box2 ul li{
     margin-left: 60px;
     margin-top: 15px;
     font-size: 15px;
@@ -288,7 +294,7 @@ header main section .change_contect::after{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.row .contain .box3 ul li{
+.row  .box3 ul li{
     margin-left: 60px;
     margin-top: 15px;
     font-size: 15px;
@@ -297,4 +303,95 @@ header main section .change_contect::after{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
+
+/* main menu section ended */
+
+/* program section started */
+
+.gallery{
+    background: red;
+    height: 90vh;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    background: #47c183;
+}
+
+.gallery .cod{
+    padding: 0%;
+    margin: 0%;
+    margin-left: 13vh;
+    width: 30vh;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 4px;
+    float: left;
+    text-align: center;
+}
+
+.gallery #co1{
+    background-image: url("https://www.tourmyindia.com/states/kerala/image/kerala-tourism.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co2{
+    background-image: url("https://miro.medium.com/max/1280/0*JYT6v0Xd7i-x8typ.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co3{
+    background-image: url("https://th-i.thgim.com/public/incoming/piu7x5/article65647235.ece/alternates/FREE_1200/IMG_25tv-Aranmula_boat_r_4_1_DR8TNFBC.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co4{
+    background-image: url("https://www.india.com/wp-content/uploads/2018/08/Thrissur-Pooram-Main.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co5{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-m_-v6aHB52DQccm0afCCLm7q6Mhy5APONA&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co6{
+    background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2017/10/146.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co7{
+    background-image: url("https://lh4.googleusercontent.com/VdAjQa4OUFv7PrHVWkckkngK39xQEqjJ50XaoPFezmaHDyOTJiSVRXST5x8DJ-KJ_N130juxFxx5fTrJHuLPs4dy5dfT3vRhRp1xhXBVw4xIvMcy_3Ej7dED39syQK1klbARevB-");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery #co8{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5b37b71f506fbe848e3351a3/1589634419314-ZPI5HNL4T5XURN5FISW7/kapil-beach-kollam-kerala-india.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery h1{
+    font-weight: bold;
+    font-style: oblique;
+    text-shadow: 2px 3px 2px black;
+    color: #b4e9cf;
+}
+
+/* program section ended */
  
