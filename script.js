@@ -1,19 +1,63 @@
-function getElementsById(ids) {
-    var idList = ids.split(" ");
-    var e = [], item;
-    for (var i = 0; i < idList.length; i++) {
-        item = document.getElementById(idList[i]);
-        if (item) {
-            e.push(item);
-        }
-    }
-    return(e);
-}
-doStuff(getElementsById("myCircle1 myCircle2 myCircle3 myCircle4"));
-// var e = document.getElementsByClassName("cod");
+var e = document.getElementById("co1");
 e.onmouseover = function() {
-  document.getElementById('tex').style.display = 'block';
+  document.getElementById('tex1').style.display = 'block';
 }
 e.onmouseout = function() {
-  document.getElementById('tex').style.display = 'none';
+  document.getElementById('tex1').style.display = 'none';
+}
+
+var e = document.getElementById("co2");
+e.onmouseover = function() {
+  document.getElementById('tex2').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex2').style.display = 'none';
+}
+
+var e = document.getElementById("co3");
+e.onmouseover = function() {
+  document.getElementById('tex3').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex3').style.display = 'none';
+}
+
+var e = document.getElementById("co4");
+e.onmouseover = function() {
+  document.getElementById('tex4').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex4').style.display = 'none';
+}
+
+var e = document.getElementById("co5");
+e.onmouseover = function() {
+  document.getElementById('tex5').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex5').style.display = 'none';
+}
+
+var e = document.getElementById("co6");
+e.onmouseover = function() {
+  document.getElementById('tex6').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex6').style.display = 'none';
+}
+
+var e = document.getElementById("co7");
+e.onmouseover = function() {
+  document.getElementById('tex7').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex7').style.display = 'none';
+}
+
+var e = document.getElementById("co8");
+e.onmouseover = function() {
+  document.getElementById('tex8').style.display = 'block';
+}
+e.onmouseout = function() {
+  document.getElementById('tex8').style.display = 'none';
 }

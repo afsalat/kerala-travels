@@ -160,6 +160,7 @@ header main section .change_contect::after{
     border: 0.050rem solid rgb(117, 255, 175);
     float: left;
     background: #00b894;
+    word-wrap: break-word;
 }
 
 .row .box2{
@@ -168,6 +169,7 @@ header main section .change_contect::after{
     border: 0.050rem solid rgb(117, 255, 175);
     float: left;
     background: #00b894;
+    word-wrap: break-word;
 }
 
 .row .box3{
@@ -176,6 +178,7 @@ header main section .change_contect::after{
     border: 0.050rem solid rgb(117, 255, 175);
     float: left;
     background: #00b894;
+    word-wrap: break-word;
 }
 
 
@@ -316,6 +319,10 @@ header main section .change_contect::after{
     align-items: center;
     text-align: center;
     background: #47c183;
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url('https://wallpaperaccess.com/full/1378156.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .gallery .cod{
@@ -326,14 +333,32 @@ header main section .change_contect::after{
     height: 30vh;
     border: 2px solid rgb(80, 151, 112);
     box-shadow: 6px 4px 10px rgb(0, 0, 0);
-    border-radius: 4px;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
     float: left;
     text-align: center;
 }
 
-.gallery .cod #tex{
-    display: none;
+.gallery .cod:hover{
+    border-radius: 0px;
+    width: 31vh;
+    height: 31vh;
+    box-shadow: 12px 8px 20px black;
+    border: 2px solid rgb(160, 233, 193);
 }
+
+.gallery .cod #tex1,#tex2,#tex3,#tex4,#tex5,#tex6,#tex7,#tex8{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-top: 13vh;
+    color: #00b894;
+    text-shadow: 4px 4px 6px black;
+    word-wrap: break-word;
+}
+
+
 
 .gallery #co1{
     background-image: url("https://www.tourmyindia.com/states/kerala/image/kerala-tourism.webp");
@@ -343,6 +368,7 @@ header main section .change_contect::after{
 }
 .gallery #co1:hover{
     background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://www.tourmyindia.com/states/kerala/image/kerala-tourism.webp");
+
 }
 
 
@@ -426,8 +452,9 @@ header main section .change_contect::after{
 .gallery h1{
     font-weight: bold;
     font-style: oblique;
-    text-shadow: 2px 3px 2px black;
+    text-shadow: 2px 3px 2px rgb(95, 95, 95);
     color: #b4e9cf;
+    text-decoration: underline 6px black;
 }
 
 /* program section ended */
