@@ -324,10 +324,15 @@ header main section .change_contect::after{
     margin-left: 13vh;
     width: 30vh;
     height: 30vh;
-    border: 2px solid black;
+    border: 2px solid rgb(80, 151, 112);
+    box-shadow: 6px 4px 10px rgb(0, 0, 0);
     border-radius: 4px;
     float: left;
     text-align: center;
+}
+
+.gallery .cod #tex{
+    display: none;
 }
 
 .gallery #co1{
@@ -336,6 +341,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co1:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://www.tourmyindia.com/states/kerala/image/kerala-tourism.webp");
+}
+
 
 .gallery #co2{
     background-image: url("https://miro.medium.com/max/1280/0*JYT6v0Xd7i-x8typ.png");
@@ -343,6 +352,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co2:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://miro.medium.com/max/1280/0*JYT6v0Xd7i-x8typ.png");
+}
+
 
 .gallery #co3{
     background-image: url("https://th-i.thgim.com/public/incoming/piu7x5/article65647235.ece/alternates/FREE_1200/IMG_25tv-Aranmula_boat_r_4_1_DR8TNFBC.jpg");
@@ -350,6 +363,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co3:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://th-i.thgim.com/public/incoming/piu7x5/article65647235.ece/alternates/FREE_1200/IMG_25tv-Aranmula_boat_r_4_1_DR8TNFBC.jpg");
+}
+
 
 .gallery #co4{
     background-image: url("https://www.india.com/wp-content/uploads/2018/08/Thrissur-Pooram-Main.jpg");
@@ -357,6 +374,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co4:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://www.india.com/wp-content/uploads/2018/08/Thrissur-Pooram-Main.jpg");
+}
+
 
 .gallery #co5{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-m_-v6aHB52DQccm0afCCLm7q6Mhy5APONA&usqp=CAU");
@@ -364,6 +385,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co5:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-m_-v6aHB52DQccm0afCCLm7q6Mhy5APONA&usqp=CAU");
+}
+
 
 .gallery #co6{
     background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2017/10/146.jpg");
@@ -371,6 +396,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co6:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://assets.traveltriangle.com/blog/wp-content/uploads/2017/10/146.jpg");
+}
+
 
 .gallery #co7{
     background-image: url("https://lh4.googleusercontent.com/VdAjQa4OUFv7PrHVWkckkngK39xQEqjJ50XaoPFezmaHDyOTJiSVRXST5x8DJ-KJ_N130juxFxx5fTrJHuLPs4dy5dfT3vRhRp1xhXBVw4xIvMcy_3Ej7dED39syQK1klbARevB-");
@@ -378,6 +407,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co7:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://lh4.googleusercontent.com/VdAjQa4OUFv7PrHVWkckkngK39xQEqjJ50XaoPFezmaHDyOTJiSVRXST5x8DJ-KJ_N130juxFxx5fTrJHuLPs4dy5dfT3vRhRp1xhXBVw4xIvMcy_3Ej7dED39syQK1klbARevB-");
+}
+
 
 .gallery #co8{
     background-image: url("https://images.squarespace-cdn.com/content/v1/5b37b71f506fbe848e3351a3/1589634419314-ZPI5HNL4T5XURN5FISW7/kapil-beach-kollam-kerala-india.jpg");
@@ -385,6 +418,10 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.gallery #co8:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)),url("https://images.squarespace-cdn.com/content/v1/5b37b71f506fbe848e3351a3/1589634419314-ZPI5HNL4T5XURN5FISW7/kapil-beach-kollam-kerala-india.jpg");
+}
+
 
 .gallery h1{
     font-weight: bold;
