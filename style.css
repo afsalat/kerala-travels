@@ -161,6 +161,7 @@ header main section .change_contect::after{
     float: left;
     background: #00b894;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 .row .box2{
@@ -170,6 +171,7 @@ header main section .change_contect::after{
     float: left;
     background: #00b894;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 .row .box3{
@@ -179,6 +181,7 @@ header main section .change_contect::after{
     float: left;
     background: #00b894;
     word-wrap: break-word;
+    overflow: hidden;
 }
 
 
@@ -323,28 +326,32 @@ header main section .change_contect::after{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: space-evenly;     
+    overflow: hidden;
 }
 
 .gallery .cod{
     padding: 0%;
-    margin: 0%;
-    margin-left: 13vh;
-    width: 30vh;
-    height: 30vh;
+    margin: 1%;
+    width: 20%;
+    height: 30%;
     border: 2px solid rgb(80, 151, 112);
     box-shadow: 6px 4px 10px rgb(0, 0, 0);
     border-bottom-left-radius: 90px;
     border-top-right-radius: 90px;
-    float: left;
     text-align: center;
+    transition: 1.5s;
+
 }
 
 .gallery .cod:hover{
+    transition: 2.5s;
     border-radius: 0px;
-    width: 31vh;
-    height: 31vh;
+    width: 30%;
+    height: 30%;
     box-shadow: 12px 8px 20px black;
-    border: 2px solid rgb(160, 233, 193);
+    border: 2px solid rgb(124, 179, 149);
 }
 
 .gallery .cod #tex1,#tex2,#tex3,#tex4,#tex5,#tex6,#tex7,#tex8{
