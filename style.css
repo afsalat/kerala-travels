@@ -472,28 +472,59 @@ header main section .change_contect::after{
 
 
 .detail{
-    background: yellow;
+    /*background: yellow;*/
     height: 70vh;
 }
 
 .detail .col-12{
-    background: tan;
-    border: 2px solid black;
+    /*background: tan;*/
+    /*border: 2px solid black;*/
     height: 30%;
     text-align: center;
 }
 
+.detail .col-12 h3:hover{
+    font-weight: bold;
+    text-shadow: 4px 4px 10px navajowhite;
+    transition: 0.5s;
+    letter-spacing: 1rem;
+
+}
+
 .detail .col-4{
-    background: darkblue;
-    border: 2px solid white;
+    /*background: darkblue;*/
+    /*border: 2px solid white;*/
     height: 70%;
+    text-align: center;
+    word-wrap: inherit;
+  
 }
 
 .detail .col-12 h3{
-    font-weight: bold;
+    font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
     margin-top: 8vh;
+}
+
+.detail .col-4 a{
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.detail .col-4 b{
+    font-family: arial;
+    font-weight: lighter;
+    font-size: 60px;
+    color: darkcyan;
+    text-shadow: 2px 2px 5px black;
+}
+
+.detail .col-4 p{
+    font-size: 15px;
+    margin: 5vh 5vh;
 }
 
 /* company details section started */
