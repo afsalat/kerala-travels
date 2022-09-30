@@ -466,3 +466,34 @@ header main section .change_contect::after{
 
 /* program section ended */
  
+
+/* company details section started */
+
+
+
+.detail{
+    background: yellow;
+    height: 70vh;
+}
+
+.detail .col-12{
+    background: tan;
+    border: 2px solid black;
+    height: 30%;
+    text-align: center;
+}
+
+.detail .col-4{
+    background: darkblue;
+    border: 2px solid white;
+    height: 70%;
+}
+
+.detail .col-12 h3{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    margin-top: 8vh;
+}
+
+/* company details section started */
