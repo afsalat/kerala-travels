@@ -473,7 +473,7 @@ header main section .change_contect::after{
 
 .detail{
     /*background: yellow;*/
-    height: 70vh;
+    height: 60vh;
 }
 
 .detail .col-12{
@@ -487,13 +487,15 @@ header main section .change_contect::after{
     font-weight: bold;
     text-shadow: 4px 4px 10px navajowhite;
     transition: 0.5s;
-    letter-spacing: 1rem;
+    letter-spacing: 1.10rem;
+    transition: 1.5s ease-in;
+    text-decoration: underline;
+    animation-fill-mode: backwards;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 }
 
 .detail .col-4{
-    /*background: darkblue;*/
-    /*border: 2px solid white;*/
     height: 70%;
     text-align: center;
     word-wrap: inherit;
@@ -501,6 +503,7 @@ header main section .change_contect::after{
 }
 
 .detail .col-12 h3{
+    color: black;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
@@ -509,9 +512,9 @@ header main section .change_contect::after{
 
 .detail .col-4 a{
     font-weight: lighter;
-    text-decoration: none;
+    text-decoration:none;
     font-size: 30px;
-    color: black;
+    color: rgb(95, 95, 95);
 }
 
 .detail .col-4 b{
@@ -525,6 +528,172 @@ header main section .change_contect::after{
 .detail .col-4 p{
     font-size: 15px;
     margin: 5vh 5vh;
+    color: black;
 }
 
-/* company details section started */
+/* company details section ended */
+
+
+/* people reviews section started */
+
+.review{
+    border: 2px solid black;
+    height: 50vh;
+    background-image: url('https://i.pinimg.com/550x/1b/55/e4/1b55e4bdb4fc6051382e370bf26d5a59.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review .col-12{
+    height: 15vh;
+    text-align: center;
+    margin-top: 2vh;
+
+}
+
+.review .col-12 h3{
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 7vh;
+    color: #4aa942;
+    text-shadow: 2px 2px 15px black;
+}
+
+.review .col-4 .row{
+    height: 35vh;
+}
+
+.review .box1 .row .sub1a{
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 10%;
+    background-image: url('https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/266749_2200-732x549.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.review .box2 .row .sub1b{
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid rgb(111, 111, 111);
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 10%;
+    background-image: url('https://image.shutterstock.com/image-photo/portrait-sexy-smiling-male-model-260nw-439389172.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.review .box3 .row .sub1c{
+    height: 10vh;
+    width: 10vh;
+    border: 2px solid rgb(149, 149, 149);
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: 10%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9Y0-Z2ZuaK58khHPhCBVWcMkUhxtnskqVQ&usqp=CAU');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.review .box1 .row .sub2a{
+    background: rgb(78, 187, 70);
+    height: 20vh;
+    box-shadow: 2px 2px 15px black;
+    border: 3px solid rgb(54, 142, 87);
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 15px;
+    text-align: right;
+    overflow: hidden;
+
+}
+
+.review .box2 .row .sub2b{
+    background: rgb(78, 187, 70);
+    box-shadow: 2px 2px 15px black;
+    border: 2px solid rgb(54, 142, 87);
+    height: 20vh;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 15px;
+    text-align: right;
+    overflow: hidden;
+
+}
+
+.review .box3 .row .sub2c{
+    background: rgb(78, 187, 70);
+    box-shadow: 2px 2px 15px black;
+    border: 2px solid rgb(54, 142, 87);
+    height: 20vh;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-left: 15px;
+    text-align: right;
+    overflow: hidden;
+
+}
+
+.review .box1 .row .sub2a p{
+    text-align: left;
+    font-family:  'Reem Kufi Fun', sans-serif;
+
+}
+
+.review .box2 .row .sub2b p{
+    text-align: left;
+    font-family:  'Reem Kufi Fun', sans-serif;
+
+}
+
+.review .box3 .row .sub2c p{
+    text-align: left;
+    font-family:  'Reem Kufi Fun', sans-serif;
+
+}
+
+.review .box1 .row .sub2a a{
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #0a5304;
+    font-weight: bold;
+}
+
+.review .box2 .row .sub2b a{
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #0a5304;
+    font-weight: bold;
+}
+
+.review .box3 .row .sub2c a{
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #0a5304;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* people reviews section ended */
