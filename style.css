@@ -469,16 +469,11 @@ header main section .change_contect::after{
 
 /* company details section started */
 
-
-
 .detail{
-    /*background: yellow;*/
     height: 60vh;
 }
 
 .detail .col-12{
-    /*background: tan;*/
-    /*border: 2px solid black;*/
     height: 30%;
     text-align: center;
 }
@@ -533,6 +528,95 @@ header main section .change_contect::after{
 
 /* company details section ended */
 
+/* company about section started */
+
+.about{
+    background: #00b894;
+    height: 50vh;
+}
+
+.about .left{
+    /* background: #23e6bf; */
+    /* border: 2px solid black; */
+
+}
+
+.about .right{
+    /* background: #23e6bf; */
+    /* border: 2px solid black; */
+
+}
+
+.about .left .sub1{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.about .left .sub1 h1{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about .left .sub1 p{
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+.about .left .button{
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #9edfd1 0, #00b894 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgba(20, 92, 36, 0.5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin: 8%;
+}
+
+.about .left .button:hover {
+    box-shadow: rgb(45 35 66 / 40%) 0 4px 8px, rgb(45 35 66 / 30%) 0 7px 13px -3px, #049679 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.about .left .button:active {
+    box-shadow: #03725c 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+.about .right iframe{
+    height: 30vh;
+    width: 90%;
+    border: 2px solid black;
+    margin-top: 15%;
+    margin-right: 5%;
+    border-radius: 2px 2px 2px 6px black;
+
+}
+
+
+/* company about section ended */
 
 /* people reviews section started */
 
