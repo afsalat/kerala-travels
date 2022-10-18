@@ -142,14 +142,6 @@ header main section .change_contect::after{
 
 /* main header section ended */
 
-/*  offers countdown section started*/
-
-
-
-/*  offers countdown section ended*/
-
-
-
 /* main menu section strated */
 
 
@@ -319,6 +311,25 @@ header main section .change_contect::after{
 
 
 /* main menu section ended */
+
+/*  offers c-offers section started*/
+
+.one{
+  /* width: 100%; */
+  height: 70vh;
+  background: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/travel-twitter-promotional-template-design-22409f0ed8e94aeac3d5df72eade9f99_screen.jpg?ts=1610556810");
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .one .sub{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+} */
+
+/*  offers c-offers section ended*/
 
 /* program section started */
 
