@@ -840,7 +840,7 @@ header main section .change_contect::after{
 
 .about{
     background: #00b894;
-    height: 55vh;
+    height: 70vh;
     text-align: left;
     border: 1px solid black;
 }
@@ -905,10 +905,10 @@ header main section .change_contect::after{
 
 
 .about .right iframe{
-    height: 30vh;
+    height: 50vh;
     width: 90%;
     border: 2px solid black;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-right: 5%;
     border-radius: 2px 2px 2px 6px black;
     border-radius: 10px;
@@ -927,7 +927,7 @@ header main section .change_contect::after{
 
 .review{
     border: 2px solid black;
-    height: 50vh;
+    height: 65vh;
     background-image: url('https://i.pinimg.com/550x/1b/55/e4/1b55e4bdb4fc6051382e370bf26d5a59.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -958,7 +958,7 @@ header main section .change_contect::after{
     width: 8vh;
     border: 2px solid rgb(177, 177, 177);
     border-radius: 50%;
-    margin-left: 35px;
+    margin-left: 28px;
     margin-top: 10%;
     background-image: url('https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/266749_2200-732x549.jpg');
     background-position: center;
@@ -972,7 +972,7 @@ header main section .change_contect::after{
     width: 8vh;
     border: 2px solid rgb(111, 111, 111);
     border-radius: 50%;
-    margin-left: 35px;
+    margin-left: 28px;
     margin-top: 10%;
     background-image: url('https://image.shutterstock.com/image-photo/portrait-sexy-smiling-male-model-260nw-439389172.jpg');
     background-position: center;
@@ -986,7 +986,7 @@ header main section .change_contect::after{
     width: 8vh;
     border: 2px solid rgb(149, 149, 149);
     border-radius: 50%;
-    margin-left: 35px;
+    margin-left: 28px;
     margin-top: 10%;
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr9Y0-Z2ZuaK58khHPhCBVWcMkUhxtnskqVQ&usqp=CAU');
     background-position: center;
@@ -997,7 +997,7 @@ header main section .change_contect::after{
 
 .review .box1 .row .sub2a{
     background: rgb(78, 187, 70);
-    height: 20vh;
+    height: 30vh;
     box-shadow: 2px 2px 15px black;
     border: 3px solid rgb(54, 142, 87);
     border-radius: 10%;
@@ -1012,7 +1012,7 @@ header main section .change_contect::after{
     background: rgb(78, 187, 70);
     box-shadow: 2px 2px 15px black;
     border: 2px solid rgb(54, 142, 87);
-    height: 20vh;
+    height: 30vh;
     border-radius: 10%;
     margin-top: 2%;
     margin-left: 15px;
@@ -1025,7 +1025,7 @@ header main section .change_contect::after{
     background: rgb(78, 187, 70);
     box-shadow: 2px 2px 15px black;
     border: 2px solid rgb(54, 142, 87);
-    height: 20vh;
+    height: 30vh;
     border-radius: 10%;
     margin-top: 2%;
     margin-left: 15px;
