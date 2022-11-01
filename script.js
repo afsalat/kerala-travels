@@ -62,3 +62,40 @@ e.onmouseout = function() {
   document.getElementById('tex8').style.display = 'none';
 }
 
+
+
+
+// login and sending email
+
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Wait...';
+
+   const serviceID = 'service_vie98na';
+   const templateID = 'template_56105un';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+
+
+
+function show(para){
+    document.getElementById('form').style.display=para
+    document.getElementById('form').style.zIndex='1'
+    document.getElementById('form').style.positiion='absolute'
+}
+
+function hide(para){
+    document.getElementById('form').style.display=para
+}

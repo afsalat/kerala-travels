@@ -66,7 +66,7 @@
         <h1>DO COME & VISIT <span class="change_contect"> </span></h1>
         <p>"kerala once is not enough"</p>
         <a href="#" class="button1">Learn more</a>
-        <a href="#" class="button2">Signup here</a>
+        <a href="#" class="button2" onclick="show('block')">Signup here</a>
       </section>
     </main>
   </header>
@@ -392,11 +392,25 @@
 
     <!-- footer details section ended           git(fds) -->
 
+    <!-- mini-login form section startd         git(mfs) -->
+
+    <form id="form">
+      <p onclick="hide('none')">BACK ></p>
+      <h1>Sign-Up</h1>
+      <h4>Create an account</h4>
+      <input type="email" name="" id="email" placeholder="Email">
+      <input type="password" name="" id="pwd" placeholder="Password">
+      <h6 href="">forget password</h6>
+      <input type="submit" id="button" value="Register">
+    </form>
+
+    <!-- mini-login form section ended          git(mfs) -->
 
 
 
-
-
+    <!-- login email cdn and other file -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('kLlity-icuDcH3wlT')</script>
 
 
     <!-- nicepage offer/countdown custom js file link  -->
