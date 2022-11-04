@@ -16,8 +16,6 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: absolute;
-    z-index: -1;
 }
 
 header nav{
@@ -1223,10 +1221,9 @@ footer a:hover{
   border: 3px solid rgb(84, 152, 71);
   box-shadow: 3px 3px 20px black inset;
   z-index: 1;
-  top: 0;
-  left: 0;
+  top: 5%;
+  left: 35%;
   position: absolute;
-  /* transition: 2s; */
   display: none;
 }
 

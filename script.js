@@ -76,14 +76,14 @@ document.getElementById('form')
    btn.value = 'Wait...';
 
    const serviceID = 'service_vie98na';
-   const templateID = 'template_56105un';
+   const templateID = 'template_mf0ibzo';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
-      alert('Sent!');
+      btn.value = 'Register';
+      alert('Your succesfully registered!');
     }, (err) => {
-      btn.value = 'Send Email';
+      btn.value = 'Register';
       alert(JSON.stringify(err));
     });
 });
@@ -92,8 +92,10 @@ document.getElementById('form')
 
 function show(para){
     document.getElementById('form').style.display=para
-    document.getElementById('form').style.zIndex='1'
-    document.getElementById('form').style.positiion='absolute'
+    document.getElementsByTagName('header').style.position='absolute'
+    document.getElementsByTagName('header').style.zIndex='-1'
+    document.getElementById('form').style.transform='transition: 3s'
+    document.getElementById('header').style.background="linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55))"
 }
 
 function hide(para){
